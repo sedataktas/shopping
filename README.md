@@ -41,10 +41,8 @@ or equal 5, extra cost is added total cost.**
 
 ### Example Scenario
 
----------------------
-Create a category
 
----------------------
+**Create a category**\
 1\
 Create a category\
 Create a category : Usage : {id,parentID,'title'}\
@@ -53,11 +51,9 @@ ID: 1\
 Parent ID: 0\
 Title: shoes\
 New Category = ID:1 ParentID:0 Title:shoes
----------------------
 
-Create a product
 
----------------------
+**Create a product**\
 2\
 Create a product\
 Title: nike\
@@ -66,12 +62,9 @@ Categories : \
          -- > Category = ID:1 ParentID:0 Title:shoes\
 Category ID : 1\
 New Product = Title:nike Price:100.000000 Category Title:shoes\
----------------------
 
 
-Create a campaign
-
----------------------
+**Create a campaign**\
 3\
 Create a campaign\
 Categories : \
@@ -79,34 +72,28 @@ Categories : \
 Category ID : 1\
 Discount: 10\
 Campaign created and sub categories\
----------------------
 
-Add a coupon to card
 
----------------------
+**Add a coupon to card**\
 4\
 Add coupon to card\
 Coupon code : 77ec3a60\
 Coupon added to card\
----------------------
 
-Add the product to card
 
----------------------
+**Add the product to card**\
 5\
 Products : \
          -- > Title:nike Price:100.000000\
 Enter product title that added to card : nike\
 Quantity : 2\
----------------------
 
-Calculate cost
 
----------------------
+**Calculate cost**\
 6\
 Calculate card cost\
 Cost:162.000000\
----------------------
+
 
 ### Next Steps
 
